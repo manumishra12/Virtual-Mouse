@@ -107,6 +107,60 @@ The **Virtual Mouse** enables cursor control through hand gestures, bypassing th
 - **OpenCV** for real-time computer vision processing.
 - **PyAutoGUI** for controlling mouse interactions.
 
-Feel free to contribute, suggest improvements, or report issues to make this project even better! 🚀
 
+## 🛠️ Steps to Run the Virtual Mouse in a Virtual Environment
+
+### 1. **Create a Virtual Environment**
+   - Open a terminal and navigate to the project directory.
+   - Create a virtual environment using `venv`:
+     ```bash
+     python -m venv venv
+     ```
+
+### 2. **Activate the Virtual Environment**
+   - **Windows**:
+     ```bash
+     .\venv\Scripts\activate
+     ```
+   - **Linux/macOS**:
+     ```bash
+     source venv/bin/activate
+     ```
+
+### 3. **Install Required Dependencies**
+   - Install all the necessary packages from the `requirements.txt` file:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+### 4. **Run the Virtual Mouse Script**
+   - Execute the Python script to start the Virtual Mouse:
+     ```bash
+     python virtual_mouse.py
+     ```
+
+### 5. **Control the Mouse with Gestures**
+   - Ensure your webcam is connected and follow these gestures:
+     - **Index Finger Up**: Move the cursor.
+     - **Index and Middle Finger Up**: Left-click.
+     - **Pinch Gesture**: Drag.
+     - **Closed Fist**: Scroll.
+
+---
+
+## 🔄 Deactivating the Virtual Environment
+   - To deactivate the virtual environment after you're done:
+     ```bash
+     deactivate
+     ```
+
+---
+
+## 📋 Notes
+- Make sure your Python version is 3.7 or above.
+- Ensure the webcam is enabled and accessible by the script.
+- For better performance, use a well-lit environment for hand tracking.
+
+Enjoy controlling your mouse with gestures! 🖐️
+Feel free to contribute, suggest improvements, or report issues to make this project even better! 🚀
 
