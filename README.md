@@ -9,18 +9,6 @@ This project implements a **Virtual Mouse** that allows users to control their c
 
 ---
 
-## 📋 Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technical Details](#technical-details)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
-
----
-
 ## 📖 Introduction
 
 The **Virtual Mouse** enables cursor control through hand gestures, bypassing the need for traditional input devices. By detecting hand landmarks and interpreting gestures, it maps hand movements to cursor movements, making it a versatile tool for accessibility and innovation.
@@ -72,6 +60,7 @@ The **Virtual Mouse** enables cursor control through hand gestures, bypassing th
 ### **Hand Detection**
 - **Mediapipe** detects 21 key landmarks on each hand.
 - These landmarks are analyzed to determine gestures and control logic.
+  
 
 ### **Gesture Recognition**
 - Specific hand gestures are mapped to mouse functions:
@@ -79,9 +68,11 @@ The **Virtual Mouse** enables cursor control through hand gestures, bypassing th
   - **Two Fingers Up**: Click.
   - **Pinch Gesture**: Drag.
   - **Closed Fist**: Scroll.
+    
 
 ### **Cursor Movement**
 - The screen resolution and hand detection region are mapped using **OpenCV** to accurately translate hand movements into cursor movements.
+  
 
 ### **Mouse Interaction**
 - **PyAutoGUI** handles the actual mouse events, such as:
@@ -89,6 +80,7 @@ The **Virtual Mouse** enables cursor control through hand gestures, bypassing th
   - Simulating left and right clicks.
   - Performing drag and drop.
   - Implementing scrolling functionality.
+    
 
 ---
 
@@ -101,11 +93,7 @@ The **Virtual Mouse** enables cursor control through hand gestures, bypassing th
 
 ---
 
-## 🌟 Acknowledgments
 
-- **Mediapipe** by Google for robust hand tracking.
-- **OpenCV** for real-time computer vision processing.
-- **PyAutoGUI** for controlling mouse interactions.
 
 
 ## 🛠️ Steps to Run the Virtual Mouse in a Virtual Environment
