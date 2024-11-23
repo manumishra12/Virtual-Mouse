@@ -2,10 +2,10 @@
 
 This project implements a **Virtual Mouse** that allows users to control their computer cursor using hand gestures. It leverages **Mediapipe** for real-time hand tracking and **OpenCV** for computer vision processing, providing an innovative and touch-free interface.
 
-![Results](https://github.com/manumishra12/Noising-Denoising/blob/main/Images/Convolutional%20Denoising%20Autoencoder%20Architecture.png)
+![Results](https://github.com/manumishra12/Virtual-Mouse/blob/main/Images/1.png)
 
----
-![Results](https://github.com/manumishra12/Noising-Denoising/blob/main/Images/Convolutional%20Denoising%20Autoencoder%20Architecture.png)
+
+![Results](https://github.com/manumishra12/Virtual-Mouse/blob/main/Images/2.png)
 
 ---
 
